@@ -47,3 +47,154 @@
   text-align: center;
   font-weight: bold;
 }
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Portfolio Styles */
+.portfolio {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+
+.portfolio h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2em;
+}
+
+.portfolio p {
+  text-align: center;
+  color: #555;
+  font-size: 1.2em;
+}
+
+.portfolio hr {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.portfolio ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.portfolio li {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.portfolio li strong {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.portfolio img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+.portfolio video {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.portfolio table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.portfolio table, th, td {
+  border: 1px solid #ddd;
+}
+
+.portfolio th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+.portfolio th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.portfolio td {
+  background-color: #f9f9f9;
+}
+
+.portfolio a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.portfolio a:hover {
+  text-decoration: underline;
+}
+
+.portfolio button {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.portfolio button:hover {
+  background-color: #45a049;
+}
+
+/* Dark Mode Styles */
+.portfolio.dark-mode {
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+
+.portfolio.dark-mode h1,
+.portfolio.dark-mode h2,
+.portfolio.dark-mode p {
+  color: white;
+}
+
+.portfolio.dark-mode hr {
+  border-color: #444;
+}
+
+.portfolio.dark-mode .portfolio img {
+  border: 4px solid #4CAF50;
+}
+
+.portfolio.dark-mode .portfolio video {
+  border: 4px solid #4CAF50;
+}
+
+.portfolio.dark-mode table {
+  background-color: #333;
+}
+
+.portfolio.dark-mode th {
+  background-color: #4CAF50;
+}
+
+.portfolio.dark-mode td {
+  background-color: #555;
+}
+
+.portfolio.dark-mode a {
+  color: #4CAF50;
+}
